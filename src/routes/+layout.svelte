@@ -4,5 +4,7 @@
     let { children } = $props();
 </script>
 
-<Header />
-{@render children()}
+<div class="font-sans font-medium tracking-wider">
+    <Header />
+    {@render children()}
+</div>
