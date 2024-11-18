@@ -1,17 +1,26 @@
 <script>
-  import placeholder from "$lib/assets/placeholder.jpg"
+  import outerwear from "$lib/assets/outerwear.avif"
+  import sweater from "$lib/assets/sweater.avif"
+  import pants from "$lib/assets/pants.avif"
+  import shirt from "$lib/assets/shirt.avif"
+  import winterCollection from "$lib/assets/winterCollection.jpg"
+  import jacket from "$lib/assets/jacket.avif"
+  import fleecePullover from "$lib/assets/fleecePullover.avif"
+  import warmPants from "$lib/assets/warmPants.avif"
+  import casualShirt from "$lib/assets/casualShirt.avif"
+
   const featuredItems = [
-    { id: 1, name: 'Winter Jacket', price: '$59.90', image: placeholder },
-    { id: 2, name: 'Fleece Pullover', price: '$29.90', image: placeholder },
-    { id: 3, name: 'Warm Pants', price: '$39.90', image: placeholder },
-    { id: 4, name: 'Casual Shirt', price: '$19.90', image: placeholder }
+    { id: 1, name: 'Winter Jacket', price: '$59.90', image: jacket },
+    { id: 2, name: 'Fleece Pullover', price: '$29.90', image: fleecePullover },
+    { id: 3, name: 'Warm Pants', price: '$39.90', image: warmPants },
+    { id: 4, name: 'Casual Shirt', price: '$19.90', image: casualShirt }
   ];
 
   const categories = [
-    { name: 'OUTERWEAR', image: placeholder },
-    { name: 'SWEATERS', image: placeholder },
-    { name: 'PANTS', image: placeholder },
-    { name: 'T-SHIRTS', image: placeholder }
+    { name: 'OUTERWEAR', image: outerwear },
+    { name: 'SWEATERS', image: sweater },
+    { name: 'PANTS', image: pants },
+    { name: 'T-SHIRTS', image: shirt }
   ];
 </script>
 
@@ -19,7 +28,7 @@
   <!-- Hero Section -->
   <div class="relative h-[600px] bg-gray-100">
     <img
-      src="../lib/assets/placeholder.jpg"
+      src={winterCollection}
       alt="Hero"
       class="w-full h-full object-cover"
     />
