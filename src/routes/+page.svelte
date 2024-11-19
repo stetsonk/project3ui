@@ -26,7 +26,7 @@
 
 <div class="min-h-screen bg-white">
   <!-- Hero Section -->
-  <div class="relative h-[600px] bg-gray-100">
+  <div class="relative h-full bg-gray-100">
     <img
       src={winterCollection}
       alt="Hero"
