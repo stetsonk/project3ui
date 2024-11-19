@@ -64,7 +64,7 @@
       <div class="grid grid-cols-1 md:grid-cols-10 gap-6">
         {#each filterCategories as f}
           <div class="group cursor-pointer">
-            <div class="aspect-w-1 aspect-h-1 bg-gray-200 mb-4">
+            <div class="aspect-w-1 aspect-h-1 bg-gray-200 mb-4 hover:bg-red-500 hover:ring-pink-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm">
               <img
                 src={f.image}
                 alt={f.name}
@@ -83,7 +83,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         {#each items as item}
           {#if (filter == "" || item.tag == filter) && (searchTerm == "" || item.name.toLowerCase().includes(searchTerm.toLowerCase()))}
-            <div class="group cursor-pointer">
+            <div class="group cursor-pointer hover:text-blue-500">
               <div class="aspect-w-1 aspect-h-1 bg-gray-200 mb-4">
                 <img src={item.image} alt={item.name} class="w-full h-full object-cover" />
               </div>
@@ -95,4 +95,3 @@
       </div>
     </section>
   </div>
-  
