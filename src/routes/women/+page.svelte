@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     import placeholder from "$lib/assets/placeholder.jpg";
     import outerwearimg from "$lib/assets/outerwear.avif";
     import sweaterimg from "$lib/assets/sweater.avif";

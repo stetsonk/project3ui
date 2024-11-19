@@ -1,4 +1,5 @@
 <script>
+  export const prerender = true;
   import outerwear from "$lib/assets/outerwear.avif"
   import sweater from "$lib/assets/sweater.avif"
   import pants from "$lib/assets/pants.avif"
