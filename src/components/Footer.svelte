@@ -1,3 +1,9 @@
+<script>
+  import facebook from "$lib/assets/facebook.png"
+  import twitter from "$lib/assets/twitter.png"
+  import instagram from "$lib/assets/instagram_icon.png"
+</script>
+
 <footer class="bg-gray-900 text-white py-8">
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- Column 1 -->
@@ -35,13 +41,13 @@
         <h4 class="font-bold mb-4">Follow Us</h4>
         <div class="flex space-x-4">
           <a href="https://facebook.com" aria-label="Facebook">
-            <img src="/facebook.png" alt="Facebook" class="w-8 h-8 hover:opacity-75" />
+            <img src={ facebook } alt="Facebook" class="w-8 h-8 hover:opacity-75" />
           </a>
           <a href="https://twitter.com" aria-label="Twitter">
-            <img src="/twitter.png" alt="Twitter" class="w-8 h-8 hover:opacity-75" />
+            <img src={ twitter } alt="Twitter" class="w-8 h-8 hover:opacity-75" />
           </a>
           <a href="https://instagram.com" aria-label="Instagram">
-            <img src="/instagram.png" alt="Instagram" class="w-8 h-8 hover:opacity-75" />
+            <img src={ instagram } alt="Instagram" class="w-8 h-8 hover:opacity-75" />
           </a>
         </div>
       </div>
